@@ -84,7 +84,7 @@ function Hero() {
           </div>
           <div className="hero-btns">
             <a href="#contact" className="btn-primary">📋 Book Consultation</a>
-            <a href="tel:+919999999999" className="btn-outline">📞 Call Now</a>
+            <a href="tel:+918294889044" className="btn-outline">📞 Call Now</a>
           </div>
         </div>
 
@@ -540,9 +540,9 @@ function Consultation() {
   }
 
   const infoItems = [
-    { icon: '📍', title: 'Office Address', text: 'Civil Court Road, Nawada, Bihar — 805110' },
-    { icon: '📞', title: 'Phone / Call', text: '+91 99999 99999\nAvailable Mon–Sat, 9AM–7PM' },
-    { icon: '💬', title: 'WhatsApp', text: '+91 99999 99999\nSend case details anytime' },
+    { icon: '📍', title: 'Office Address', text: 'ITI Gonawan, Nawada, Bihar — 805111' },
+    { icon: '📞', title: 'Phone / Call', text: '+91 8294889044\nAvailable Mon–Sat, 9AM–7PM' },
+    { icon: '💬', title: 'WhatsApp', text: '+91 8294889044\nSend case details anytime' },
     { icon: '⚖️', title: 'Court Jurisdictions', text: 'Civil Court Nawada\nPatna High Court, Bihar' },
     { icon: '🗺️', title: 'Location', text: 'Near Civil Court, Nawada, Bihar' },
   ]
@@ -567,10 +567,10 @@ function Consultation() {
               </div>
             ))}
             <div style={{ display: 'flex', gap: '1rem', marginTop: '1rem' }}>
-              <a href="https://wa.me/919999999999" className="btn-primary" style={{ fontSize: '0.82rem', padding: '0.7rem 1.25rem' }}>
+              <a href="https://wa.me/918294889044" className="btn-primary" style={{ fontSize: '0.82rem', padding: '0.7rem 1.25rem' }}>
                 💬 WhatsApp
               </a>
-              <a href="tel:+919999999999" className="btn-outline" style={{ fontSize: '0.82rem', padding: '0.7rem 1.25rem' }}>
+              <a href="tel:+918294889044" className="btn-outline" style={{ fontSize: '0.82rem', padding: '0.7rem 1.25rem' }}>
                 📞 Call Now
               </a>
             </div>
@@ -598,7 +598,7 @@ function Consultation() {
                 </div>
                 <div className="form-group">
                   <label>Email Address</label>
-                  <input type="email" placeholder="your@email.com" value={form.email}
+                  <input type="email" placeholder="kamleshkrncs@gmail.com" value={form.email}
                     onChange={e => setForm({ ...form, email: e.target.value })} />
                 </div>
                 <div className="form-group">
@@ -646,8 +646,8 @@ function CTABanner() {
         Don't face the legal system alone. Advocate Kamlesh Kumar is ready to fight for your rights.
       </p>
       <div className="cta-btns">
-        <a href="tel:+919999999999" className="btn-navy">📞 Call Now: +91 99999 99999</a>
-        <a href="https://wa.me/919999999999" className="btn-navy">💬 WhatsApp Us</a>
+        <a href="tel:+918294889044" className="btn-navy">📞 Call Now: +91 8294889044</a>
+        <a href="https://wa.me/918294889044" className="btn-navy">💬 WhatsApp Us</a>
         <a href="#contact" className="btn-navy">📋 Book Consultation</a>
       </div>
     </div>
@@ -695,9 +695,9 @@ function Footer() {
           <div>
             {[
               { icon: '📍', text: 'Civil Court Road, Nawada, Bihar — 805110' },
-              { icon: '📞', text: '+91 99999 99999' },
-              { icon: '💬', text: 'WhatsApp: +91 99999 99999' },
-              { icon: '⚖️', text: 'Civil Court Nawada & Patna High Court' },
+              { icon: '📞', text: '+91 8294889044' },
+              { icon: '💬', text: 'WhatsApp: +91 8294889044' },
+              { icon: '⚖️', text: 'Civil Court Nawada & High Court- Patna' },
             ].map((c, i) => (
               <div key={i} className="footer-contact-item">
                 <span className="footer-contact-icon">{c.icon}</span>
@@ -709,7 +709,8 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <div>© 2025 Advocate Kamlesh Kumar. All rights reserved.</div>
+        <div>© 2026 Advocate Kamlesh Kumar. All rights reserved.</div>
+        <div>© 2026-2069 Hemant Shahi-8298180570.</div>
         <div className="footer-bottom-links">
           <a href="#">Privacy Policy</a>
           <a href="#">Terms & Conditions</a>
@@ -724,8 +725,8 @@ function Footer() {
 function FloatingButtons() {
   return (
     <div className="floating-btns">
-      <a href="https://wa.me/919999999999" className="float-btn float-whatsapp" title="WhatsApp">💬</a>
-      <a href="tel:+919999999999" className="float-btn float-call" title="Call Now">📞</a>
+      <a href="https://wa.me/918294889044" className="float-btn float-whatsapp" title="WhatsApp">💬</a>
+      <a href="tel:+918294889044" className="float-btn float-call" title="Call Now">📞</a>
     </div>
   )
 }
